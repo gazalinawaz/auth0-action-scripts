@@ -11,6 +11,8 @@ This repository contains official Auth0 Actions patterns covering:
 
 All scripts are based on [Auth0's official documentation](https://auth0.com/docs/customize/actions).
 
+> **📝 Note:** Individual script files are being added incrementally. See [SCRIPTS_SOURCE.md](./SCRIPTS_SOURCE.md) for the complete reference document with all 70 scripts.
+
 ## 🗂️ Repository Structure
 
 ```
