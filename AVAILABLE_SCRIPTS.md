@@ -5,8 +5,9 @@ This document lists all currently implemented scripts in the repository.
 ## 📊 Current Status
 
 **Total Scripts Documented:** 70  
-**Total Scripts Implemented:** 11  
-**Completion:** 15.7%
+**Total Scripts Implemented:** 18  
+**Completion:** 25.7%  
+**Complete Examples:** 1
 
 ---
 
@@ -52,11 +53,48 @@ This document lists all currently implemented scripts in the repository.
 |---|--------|------|-------------|
 | 30 | Safe Logging | `safe-logging.js` | PII-safe logging practices |
 
+### 05-user-profile-enrichment (1 script)
+
+| # | Script | File | Description |
+|---|--------|------|-------------|
+| 20 | Display Name Fallback | `display-name-fallback.js` | Consistent display names across connections |
+
+### 07-redirect-actions (1 script)
+
+| # | Script | File | Description |
+|---|--------|------|-------------|
+| 25 | Terms of Service | `terms-of-service.js` | ToS acceptance with silent auth detection |
+
+### 09-transaction-metadata (1 script)
+
+| # | Script | File | Description |
+|---|--------|------|-------------|
+| 34 | Share Between Actions | `share-between-actions.js` | Pass data between sequential Actions |
+
+### 10-api-access (1 script)
+
+| # | Script | File | Description |
+|---|--------|------|-------------|
+| 37 | Block Suspended Accounts | `block-suspended.js` | Prevent login for suspended users |
+
 ### 11-api-token-management (1 script)
 
 | # | Script | File | Description |
 |---|--------|------|-------------|
 | 44 | Account Linking | `account-linking.js` | **Production-ready** automatic account linking with Management API |
+
+### 13-api-advanced (2 scripts)
+
+| # | Script | File | Description |
+|---|--------|------|-------------|
+| 55 | Cache Feature Flags | `cache-feature-flags.js` | Cache external API responses |
+| 64 | SAML Role Mapping | `saml-map-roles.js` | Map roles to SAML group attributes |
+
+### examples (1 complete example)
+
+| Example | File | Description |
+|---------|------|-------------|
+| Complete RBAC | `complete-rbac-example.js` | **Production-ready** full RBAC implementation with roles, MFA, and scopes |
 
 ---
 
