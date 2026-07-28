@@ -19,6 +19,24 @@ A comprehensive Role-Based Access Control implementation including:
 
 ---
 
+### 2. Metadata Best Practices
+**File:** `metadata-best-practices.js`
+
+Complete guide to app_metadata vs user_metadata including:
+- ✅ Proper separation of system data vs user preferences
+- ✅ Authorization with app_metadata (secure)
+- ✅ Personalization with user_metadata (user-editable)
+- ✅ First login initialization
+- ✅ Business logic examples (subscriptions, upgrades)
+- ✅ Security patterns and anti-patterns
+- ✅ Frontend and backend usage examples
+- ✅ User self-service preference updates
+- ✅ Decision tree for choosing metadata type
+
+**Use this when:** Understanding how to properly store and use user data in Auth0.
+
+---
+
 ## 🚀 How to Use These Examples
 
 ### Step 1: Copy the Code
