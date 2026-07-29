@@ -33,7 +33,8 @@ auth0-action-scripts/
 ├── 11-api-authentication/             # api.authentication use cases
 ├── 12-api-token-management/           # Token lifecycle management
 ├── 13-api-advanced/                   # Cache, SAML, Groups, etc.
-└── examples/                          # Complete working examples
+├── examples/                          # Complete working examples
+└── universal-login-customization/     # Multi-portal Universal Login
 ```
 
 ## 🎯 Auth0 Triggers
@@ -239,6 +240,39 @@ exports.onContinuePostLogin = async (event, api) => {
 7. **Timeout external calls** - Use AbortController
 8. **Use event.request.hostname** - Works with custom domains
 
+## 🎨 Universal Login Customization
+
+The `universal-login-customization/` folder contains a complete solution for multi-portal Universal Login pages.
+
+### Use Case: Multi-Portal Medical Certification Application
+
+Customize the Auth0 Universal Login page to display different logos and navigation links based on the portal URL.
+
+**Features:**
+- ✅ Dynamic logo display based on portal
+- ✅ Portal-specific navigation links (Sign Up, Forgot Password, Forgot UserID)
+- ✅ Responsive design (desktop, tablet, mobile)
+- ✅ Portal detection from URL, referrer, or query parameter
+- ✅ Production-ready HTML template
+- ✅ Auth0 Action for portal tracking
+
+**Quick Start:**
+```bash
+cd universal-login-customization/
+# See QUICK-START.md for 5-minute setup
+```
+
+**Files:**
+- `login-page-template.html` - Complete Universal Login page
+- `portal-config.js` - Portal configuration and branding
+- `action-pass-portal-context.js` - Portal tracking Action
+- `deployment-guide.md` - Detailed setup instructions
+- `QUICK-START.md` - Fast deployment guide
+
+See [universal-login-customization/README.md](./universal-login-customization/README.md) for full documentation.
+
+---
+
 ## 📚 Resources
 
 - [Auth0 Actions Documentation](https://auth0.com/docs/customize/actions)
@@ -246,6 +280,7 @@ exports.onContinuePostLogin = async (event, api) => {
 - [Actions Triggers](https://auth0.com/docs/customize/actions/triggers)
 - [Actions Limitations](https://auth0.com/docs/customize/actions/limitations)
 - [Actions Best Practices](https://auth0.com/docs/customize/actions/best-practices)
+- [Universal Login Customization](https://auth0.com/docs/customize/universal-login-pages)
 
 ## 📝 License
 
